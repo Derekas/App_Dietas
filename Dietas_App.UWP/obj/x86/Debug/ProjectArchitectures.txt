@@ -1,1 +1,1 @@
-C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Dietas_App.UWP.csproj;x86
+E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Dietas_App.UWP.csproj;x86

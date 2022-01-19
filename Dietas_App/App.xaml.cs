@@ -1,4 +1,5 @@
-﻿using Dietas_App.View;
+﻿using Dietas_App.Model;
+using Dietas_App.View;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -10,7 +11,7 @@ namespace Dietas_App
         public App()
         {
             InitializeComponent();
-
+            var x= DataBase.ConnectioDatabase;
             MainPage = new NavigationPage(new PaginaPrincipal());
         }
 

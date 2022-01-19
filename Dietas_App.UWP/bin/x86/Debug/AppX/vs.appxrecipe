@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-CLVC1SP</Machine>
-    <WindowsUser>Derek</WindowsUser>
+    <Machine>DESKTOP-P7QV714</Machine>
+    <WindowsUser>isca</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=33086455-3014-41c8-a7fa-04bb814a4724</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>4836F9866F3DA5645EF8C128DFA12E90E60C91025DC7AD178F8DA66383D1D1A0</RegisteredManifestChecksum>
+    <LayoutDir>E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>CDF47B7FF8D3734D692490C143A34870926B5102B4097847DAB5FE77CADAF8F1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>0c76d944-60e8-47d3-b137-348983fbcfad_1.0.0.0_x86__8fs4s7kgw48v0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>0c76d944-60e8-47d3-b137-348983fbcfad_8fs4s7kgw48v0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>0c76d944-60e8-47d3-b137-348983fbcfad</RegisteredPackageID>
@@ -27,22 +27,58 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T12:44:32.540</Modified>
+      <Modified>2022-01-19T10:29:27.517</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\bin\x86\Debug\Dietas_App.UWP.exe">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\bin\x86\Debug\Dietas_App.UWP.exe">
       <PackagePath>entrypoint\Dietas_App.UWP.exe</PackagePath>
-      <Modified>2022-01-12T12:44:28.226</Modified>
+      <Modified>2022-01-19T10:29:25.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-06-13T23:06:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2021-02-04T23:15:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2021-09-02T21:04:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\sqlitenetextensions\2.0.0\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1\SQLiteNetExtensions.dll">
+      <PackagePath>SQLiteNetExtensions.dll</PackagePath>
+      <Modified>2017-12-01T00:07:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\sqlitenetextensions.async\2.1.0\lib\netstandard1.1\SQLiteNetExtensionsAsync.dll">
+      <PackagePath>SQLiteNetExtensionsAsync.dll</PackagePath>
+      <Modified>2018-08-13T22:28:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2020-09-03T17:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\sqlitepclraw.core\2.0.4\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2020-09-03T17:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2020-08-17T14:38:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.4\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2020-09-03T17:13:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2018-09-18T19:38:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T02:58:38.000</Modified>
     </AppxPackagedFile>
@@ -66,11 +102,11 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2021-02-12T11:39:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App\bin\Debug\netstandard2.0\Dietas_App.dll">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App\bin\Debug\netstandard2.0\Dietas_App.dll">
       <PackagePath>Dietas_App.dll</PackagePath>
-      <Modified>2022-01-14T11:40:13.300</Modified>
+      <Modified>2022-01-19T10:44:16.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
       <Modified>2016-11-30T02:58:38.000</Modified>
     </AppxPackagedFile>
@@ -82,156 +118,156 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2021-02-12T02:08:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.047</Modified>
+      <Modified>2022-01-19T09:28:48.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.051</Modified>
+      <Modified>2022-01-19T09:28:48.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.061</Modified>
+      <Modified>2022-01-19T09:28:48.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.063</Modified>
+      <Modified>2022-01-19T09:28:48.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.065</Modified>
+      <Modified>2022-01-19T09:28:48.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.067</Modified>
+      <Modified>2022-01-19T09:28:48.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.070</Modified>
+      <Modified>2022-01-19T09:28:48.266</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.073</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.077</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.079</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.082</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.085</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.088</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.092</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.094</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.099</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.101</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.103</Modified>
+      <Modified>2022-01-19T09:28:48.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.106</Modified>
+      <Modified>2022-01-19T09:28:48.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.109</Modified>
+      <Modified>2022-01-19T09:28:48.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.111</Modified>
+      <Modified>2022-01-19T09:28:48.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.115</Modified>
+      <Modified>2022-01-19T09:28:48.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.117</Modified>
+      <Modified>2022-01-19T09:28:48.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.121</Modified>
+      <Modified>2022-01-19T09:28:48.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.123</Modified>
+      <Modified>2022-01-19T09:28:48.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.127</Modified>
+      <Modified>2022-01-19T09:28:48.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-12T09:32:46.130</Modified>
+      <Modified>2022-01-19T09:28:48.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-01-12T09:32:46.135</Modified>
+      <Modified>2022-01-19T09:28:48.313</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\bin\x86\Debug\Dietas_App.UWP.xr.xml">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\bin\x86\Debug\Dietas_App.UWP.xr.xml">
       <PackagePath>Dietas_App.UWP.xr.xml</PackagePath>
-      <Modified>2022-01-12T11:28:47.290</Modified>
+      <Modified>2022-01-19T09:28:48.813</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-01-12T12:44:28.079</Modified>
+      <Modified>2022-01-19T10:29:25.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-01-12T12:44:28.079</Modified>
+      <Modified>2022-01-19T10:29:25.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -241,62 +277,62 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-07-10T00:07:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-01-12T11:28:51.027</Modified>
+      <Modified>2022-01-19T10:29:26.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Derek\source\repos\Dietas_App\Dietas_App.UWP\bin\x86\Debug\Core\Dietas_App.UWP.exe">
+    <AppxPackagedFile Include="E:\1.Clase\2ºsuperior\RobertProgramacio\App_Dietas\Dietas_App.UWP\bin\x86\Debug\Core\Dietas_App.UWP.exe">
       <PackagePath>Dietas_App.UWP.exe</PackagePath>
-      <Modified>2022-01-12T12:44:32.530</Modified>
+      <Modified>2022-01-19T10:29:27.509</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42007.9001.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42007.9001.0</Version>
       <Architecture>Win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42007.9001.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42007.9001.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42007.9001.0</Version>
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42007.9001.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Derek\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\isca\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

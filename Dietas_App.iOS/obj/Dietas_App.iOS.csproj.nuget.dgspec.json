@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App.iOS\\Dietas_App.iOS.csproj": {}
+    "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App.iOS\\Dietas_App.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App.iOS\\Dietas_App.iOS.csproj": {
+    "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App.iOS\\Dietas_App.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App.iOS\\Dietas_App.iOS.csproj",
+        "projectUniqueName": "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App.iOS\\Dietas_App.iOS.csproj",
         "projectName": "Dietas_App.iOS",
-        "projectPath": "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App.iOS\\Dietas_App.iOS.csproj",
-        "packagesPath": "C:\\Users\\Derek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App.iOS\\obj\\",
+        "projectPath": "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App.iOS\\Dietas_App.iOS.csproj",
+        "packagesPath": "C:\\Users\\isca\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Derek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\isca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -34,8 +34,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App\\Dietas_App.csproj": {
-                "projectPath": "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App\\Dietas_App.csproj"
+              "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App\\Dietas_App.csproj": {
+                "projectPath": "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App\\Dietas_App.csproj"
               }
             }
           }
@@ -67,21 +67,21 @@
         }
       }
     },
-    "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App\\Dietas_App.csproj": {
+    "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App\\Dietas_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App\\Dietas_App.csproj",
+        "projectUniqueName": "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App\\Dietas_App.csproj",
         "projectName": "Dietas_App",
-        "projectPath": "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App\\Dietas_App.csproj",
-        "packagesPath": "C:\\Users\\Derek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Derek\\source\\repos\\Dietas_App\\Dietas_App\\obj\\",
+        "projectPath": "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App\\Dietas_App.csproj",
+        "packagesPath": "C:\\Users\\isca\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Clase\\2ºsuperior\\RobertProgramacio\\App_Dietas\\Dietas_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Derek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\isca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -115,6 +115,10 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "SQLiteNetExtensions.Async": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -122,6 +126,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
