@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dietas_App.View.HipocaloricaView"
+             BackgroundColor="#B29E81">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Spacing="5" Padding="10" >
+                <Label Text="FitApp" TextColor="#9BFE9B" FontSize="40" HorizontalTextAlignment="Center" Margin="10" FontAttributes="Italic" FontFamily=""></Label>
+            </StackLayout>
+            <StackLayout Spacing="10" Padding="20" HorizontalOptions="Start" >
+                <Grid>
+
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="0"></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Calories:" TextColor="White" FontSize="15" Grid.Row="1" HorizontalTextAlignment="Start" FontAttributes="Italic" FontFamily=""></Label>
+                    <Label Text="Proteines:" TextColor="White" FontSize="15" Grid.Row="2" HorizontalTextAlignment="Start" FontAttributes="Italic" FontFamily=""></Label>
+                    <Label Text="Idratos de carbono:" TextColor="White" FontSize="15" Grid.Row="3" HorizontalTextAlignment="Start" FontAttributes="Italic" FontFamily=""></Label>
+                    <Label Text="Grasas:" TextColor="White" FontSize="15" HorizontalTextAlignment="Start" Grid.Row="4" FontAttributes="Italic" FontFamily=""></Label>
+
+                    <Label Text="Calories" TextColor="White" FontSize="15" Grid.Row="1" Grid.Column="2" HorizontalTextAlignment="Start" FontAttributes="Italic" TranslationX="-280"></Label>
+                    <Label Text="Proteines" TextColor="White" FontSize="15" Grid.Row="2" Grid.Column="2" HorizontalTextAlignment="Start" FontAttributes="Italic" TranslationX="-270" FontFamily="" ></Label>
+                    <Label Text="Idratos de carbono" TextColor="White" FontSize="15" Grid.Row="3" Grid.Column="2" HorizontalTextAlignment="Start" FontAttributes="Italic" FontFamily="" TranslationX="-210"></Label>
+                    <Label Text="Grasas" TextColor="White" FontSize="15" HorizontalTextAlignment="Start" Grid.Row="4" Grid.Column="2" FontAttributes="Italic" FontFamily="" TranslationX="-287"></Label>
+
+                </Grid>
+
+
+
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
