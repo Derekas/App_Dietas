@@ -14,14 +14,16 @@ namespace Dietas_App.Model
         public String nom { get; set; }
 
         public String cantidad { get; set; }
-        public int calorias { get; set; }
-        public int hidratos { get; set; }
-        public int proteina { get; set; }
-        public int grasas { get; set; }
+        public float calorias { get; set; }
+        public float hidratos { get; set; }
+        public float proteina { get; set; }
+        public float grasas { get; set; }
 
         [ForeignKey(typeof(Dieta))]
         public int dieta_id { get; set; }
 
+        [ForeignKey(typeof(CategoriaComida))]
+        public int categoria_id { get; set; }
 
     }
 }

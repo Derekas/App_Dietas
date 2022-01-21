@@ -11,8 +11,13 @@ namespace Dietas_App.Model
 
         static DataBase()
         {
+            /*ConnectioDatabase.DropTableAsync<Dieta>().Wait();
+            ConnectioDatabase.DropTableAsync<Comida>().Wait();
+            ConnectioDatabase.DropTableAsync<CategoriaComida>().Wait();*/
+
             ConnectioDatabase.CreateTableAsync<Dieta>().Wait();
             ConnectioDatabase.CreateTableAsync<Comida>().Wait();
+            ConnectioDatabase.CreateTableAsync<CategoriaComida>().Wait();
         }
     }
 }
